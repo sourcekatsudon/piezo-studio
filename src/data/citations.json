@@ -1,0 +1,27 @@
+{
+  "cylinder": {
+    "title": "Thick-walled cylinder (Lame) and plane stress/strain displacement",
+    "source": "Timoshenko & Goodier, Theory of Elasticity",
+    "url": "https://archive.org/details/theoryofelasticity"
+  },
+  "buckling": {
+    "title": "External pressure buckling of cylindrical shells",
+    "source": "NASA SP-8007 Buckling of Thin-Walled Circular Cylinders",
+    "url": "https://ntrs.nasa.gov/citations/19650008129"
+  },
+  "plate": {
+    "title": "Clamped circular plate under uniform load",
+    "source": "Roark's Formulas for Stress and Strain",
+    "url": "https://www.accessengineeringlibrary.com/content/book/9780071742474"
+  },
+  "sphericalShell": {
+    "title": "Thin spherical shell membrane stress and buckling",
+    "source": "Theory of Plates and Shells",
+    "url": "https://archive.org/details/theoryofplatesan0000timo"
+  },
+  "rectPlate": {
+    "title": "Simply supported rectangular plate (Navier series)",
+    "source": "Theory of Plates and Shells",
+    "url": "https://archive.org/details/theoryofplatesan0000timo"
+  }
+}
