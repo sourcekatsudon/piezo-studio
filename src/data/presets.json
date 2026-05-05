@@ -1,0 +1,80 @@
+[
+  {
+    "id": "rov_acrylic_hobby",
+    "name": "Hobby Acrylic Tube + Plate",
+    "tags": ["ROV", "Short dive"],
+    "shape": "cylinder",
+    "geometry": {
+      "Di_mm": 100,
+      "t_mm": 8,
+      "L_mm": 200,
+      "hasPlate": true,
+      "plate_t_mm": 10
+    },
+    "materialId": "pmma_cast_plexiglas_gs_0z09",
+    "water": "seawater",
+    "internalPressure_kPa": 0,
+    "duration": "short",
+    "uncertainty": {
+      "enabled": true,
+      "t_tol_mm": 0.2,
+      "d_tol_mm": 0.2,
+      "E_var_pct": 7,
+      "sigma_var_pct": 10,
+      "kdfPreset": "hobby",
+      "samples": 2000
+    }
+  },
+  {
+    "id": "rov_aluminum_tube",
+    "name": "Aluminum Tube + Plate",
+    "tags": ["ROV", "Pro"],
+    "shape": "cylinder",
+    "geometry": {
+      "Di_mm": 120,
+      "t_mm": 6,
+      "L_mm": 250,
+      "hasPlate": true,
+      "plate_t_mm": 6
+    },
+    "materialId": "al_6061_t6",
+    "water": "seawater",
+    "internalPressure_kPa": 0,
+    "duration": "short",
+    "uncertainty": {
+      "enabled": true,
+      "t_tol_mm": 0.1,
+      "d_tol_mm": 0.1,
+      "E_var_pct": 3,
+      "sigma_var_pct": 5,
+      "kdfPreset": "good",
+      "samples": 2000
+    }
+  },
+  {
+    "id": "long_soak_pc",
+    "name": "Polycarbonate Long Soak",
+    "tags": ["Long soak risk"],
+    "shape": "cylinder",
+    "geometry": {
+      "Di_mm": 90,
+      "t_mm": 7,
+      "L_mm": 180,
+      "hasPlate": true,
+      "plate_t_mm": 8
+    },
+    "materialId": "pc_lexan_243r",
+    "water": "freshwater",
+    "internalPressure_kPa": 0,
+    "duration": "long",
+    "uncertainty": {
+      "enabled": true,
+      "t_tol_mm": 0.2,
+      "d_tol_mm": 0.2,
+      "E_var_pct": 8,
+      "sigma_var_pct": 12,
+      "kdfPreset": "hobby",
+      "samples": 2000
+    }
+  }
+]

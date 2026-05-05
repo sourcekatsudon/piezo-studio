@@ -1,0 +1,1265 @@
+[
+  {
+    "id": "pmma_cast_plexiglas_gs_0z09",
+    "name": "PMMA (Cast Acrylic) – PLEXIGLAS GS 0Z09 (209)",
+    "category": "plastic",
+    "density_kg_m3": 1190,
+    "elastic": {
+      "E_GPa": 3.3,
+      "nu": 0.37
+    },
+    "strength": {
+      "yield_MPa": null,
+      "ultimate_MPa": 80,
+      "compressive_yield_MPa": 110,
+      "design_allow_MPa_short": 35,
+      "design_allow_MPa_long": 15
+    },
+    "creep": {
+      "isCreepSensitive": true,
+      "longTermFactorDefault": 0.4,
+      "notes": "Acrylic is time-dependent and creep/stress cracking can dominate; short-term strength is not long-term safety."
+    },
+    "notes": "Representative for hobby use (block/machined). Design allowables are conservative presets; professional use requires material lot and temperature verification.",
+    "sources": [
+      {
+        "title": "Evonik Corporation Plexiglas GS 0Z09 (209) Cast Acrylic Datasheet",
+        "url": "https://mychem.ir/uploads/tds/16462.pdf",
+        "fields": [
+          "Density 1.19 g/cc",
+          "Modulus of Elasticity 3.30 GPa",
+          "Poisson's Ratio 0.37",
+          "Tensile Strength at Break 80 MPa",
+          "Compressive Yield Strength 110 MPa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pc_lexan_243r",
+    "name": "Polycarbonate – LEXAN 243R",
+    "category": "plastic",
+    "density_kg_m3": 1190,
+    "elastic": {
+      "E_GPa": 2.34,
+      "nu": 0.37
+    },
+    "strength": {
+      "yield_MPa": 62,
+      "ultimate_MPa": 65,
+      "compressive_yield_MPa": null,
+      "design_allow_MPa_short": 30,
+      "design_allow_MPa_long": 12
+    },
+    "creep": {
+      "isCreepSensitive": true,
+      "longTermFactorDefault": 0.4,
+      "notes": "Polycarbonate is creep-sensitive; use conservative allowables for long-term loads."
+    },
+    "notes": "Poisson's ratio is a representative default; override if needed.",
+    "sources": [
+      {
+        "title": "SABIC Innovative Plastics Lexan 243R PC Datasheet",
+        "url": "https://upmold.com/wp-content/uploads/data-sheet/SABIC-Innovative-Plastics-Lexan-243R-PC.pdf",
+        "fields": [
+          "Density 1.19 g/cc",
+          "Tensile Strength, Yield 62.0 MPa",
+          "Tensile Strength at Break 65.0 MPa",
+          "Flexural Modulus 2.34 GPa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pom_delrin_150_nc010",
+    "name": "POM (Acetal) – Delrin 150 NC010",
+    "category": "plastic",
+    "density_kg_m3": null,
+    "elastic": {
+      "E_GPa": 3.2,
+      "nu": 0.37
+    },
+    "strength": {
+      "yield_MPa": 73,
+      "ultimate_MPa": null,
+      "compressive_yield_MPa": null,
+      "design_allow_MPa_short": 35,
+      "design_allow_MPa_long": 15
+    },
+    "creep": {
+      "isCreepSensitive": true,
+      "longTermFactorDefault": 0.5,
+      "notes": "POM is dimensionally stable but still needs long-term knockdowns."
+    },
+    "sources": [
+      {
+        "title": "Delrin 150 NC010 Datasheet (DuPont)",
+        "url": "https://www.engpolymer.co.kr/Delrin/Delrin-21/Delrin%C2%AE%20150%20NC010-gb.pdf",
+        "fields": [
+          "Tensile Modulus 3200 MPa",
+          "Yield stress 73 MPa",
+          "Poisson's ratio 0.37"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al_6061_t6",
+    "name": "Aluminum 6061-T6",
+    "category": "metal",
+    "density_kg_m3": 2700,
+    "elastic": {
+      "E_GPa": 68.9,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 276,
+      "ultimate_MPa": 310,
+      "compressive_yield_MPa": 276,
+      "design_allow_MPa_short": 160,
+      "design_allow_MPa_long": 160
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "At ambient temperatures, creep is less dominant than for plastics."
+    },
+    "sources": [
+      {
+        "title": "Glemco – Aluminum 6061-T6 Material Information",
+        "url": "https://www.glemco.com/capabilities/material-expertise/aluminum-6061-t6/",
+        "fields": [
+          "Density 2.7 g/cc",
+          "Tensile Yield Strength 276 MPa",
+          "Ultimate Tensile Strength 310 MPa",
+          "Modulus of Elasticity 68.9 GPa",
+          "Poisson’s Ratio 0.33"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al_1050_o",
+    "name": "Aluminum 1050-O",
+    "category": "metal",
+    "density_kg_m3": 2700,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 20,
+      "ultimate_MPa": 65,
+      "compressive_yield_MPa": 20,
+      "design_allow_MPa_short": 12,
+      "design_allow_MPa_long": 12
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative annealed 1050 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_1060_o",
+    "name": "Aluminum 1060-O",
+    "category": "metal",
+    "density_kg_m3": 2700,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 25,
+      "ultimate_MPa": 70,
+      "compressive_yield_MPa": 25,
+      "design_allow_MPa_short": 15,
+      "design_allow_MPa_long": 15
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative annealed 1060 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_1100_o",
+    "name": "Aluminum 1100-O",
+    "category": "metal",
+    "density_kg_m3": 2710,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 34,
+      "ultimate_MPa": 90,
+      "compressive_yield_MPa": 34,
+      "design_allow_MPa_short": 20,
+      "design_allow_MPa_long": 20
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative annealed 1100 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_2011_t3",
+    "name": "Aluminum 2011-T3",
+    "category": "metal",
+    "density_kg_m3": 2830,
+    "elastic": {
+      "E_GPa": 72.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 275,
+      "ultimate_MPa": 390,
+      "compressive_yield_MPa": 275,
+      "design_allow_MPa_short": 160,
+      "design_allow_MPa_long": 160
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 2011-T3 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_2014_t6",
+    "name": "Aluminum 2014-T6",
+    "category": "metal",
+    "density_kg_m3": 2800,
+    "elastic": {
+      "E_GPa": 73.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 414,
+      "ultimate_MPa": 483,
+      "compressive_yield_MPa": 414,
+      "design_allow_MPa_short": 240,
+      "design_allow_MPa_long": 240
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 2014-T6 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_2017_t4",
+    "name": "Aluminum 2017-T4",
+    "category": "metal",
+    "density_kg_m3": 2790,
+    "elastic": {
+      "E_GPa": 72.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 220,
+      "ultimate_MPa": 370,
+      "compressive_yield_MPa": 220,
+      "design_allow_MPa_short": 130,
+      "design_allow_MPa_long": 130
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 2017-T4 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_2024_t3",
+    "name": "Aluminum 2024-T3",
+    "category": "metal",
+    "density_kg_m3": 2780,
+    "elastic": {
+      "E_GPa": 73.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 345,
+      "ultimate_MPa": 483,
+      "compressive_yield_MPa": 345,
+      "design_allow_MPa_short": 200,
+      "design_allow_MPa_long": 200
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 2024-T3 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_2024_t4",
+    "name": "Aluminum 2024-T4",
+    "category": "metal",
+    "density_kg_m3": 2780,
+    "elastic": {
+      "E_GPa": 73.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 324,
+      "ultimate_MPa": 470,
+      "compressive_yield_MPa": 324,
+      "design_allow_MPa_short": 190,
+      "design_allow_MPa_long": 190
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 2024-T4 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_2024_o",
+    "name": "Aluminum 2024-O",
+    "category": "metal",
+    "density_kg_m3": 2780,
+    "elastic": {
+      "E_GPa": 73.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 75,
+      "ultimate_MPa": 186,
+      "compressive_yield_MPa": 75,
+      "design_allow_MPa_short": 45,
+      "design_allow_MPa_long": 45
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative annealed 2024 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_2219_t87",
+    "name": "Aluminum 2219-T87",
+    "category": "metal",
+    "density_kg_m3": 2840,
+    "elastic": {
+      "E_GPa": 73.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 370,
+      "ultimate_MPa": 455,
+      "compressive_yield_MPa": 370,
+      "design_allow_MPa_short": 215,
+      "design_allow_MPa_long": 215
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 2219-T87 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_3003_o",
+    "name": "Aluminum 3003-O",
+    "category": "metal",
+    "density_kg_m3": 2730,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 35,
+      "ultimate_MPa": 110,
+      "compressive_yield_MPa": 35,
+      "design_allow_MPa_short": 20,
+      "design_allow_MPa_long": 20
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative annealed 3003 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_3003_h14",
+    "name": "Aluminum 3003-H14",
+    "category": "metal",
+    "density_kg_m3": 2730,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 145,
+      "ultimate_MPa": 195,
+      "compressive_yield_MPa": 145,
+      "design_allow_MPa_short": 85,
+      "design_allow_MPa_long": 85
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 3003-H14 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_3004_h34",
+    "name": "Aluminum 3004-H34",
+    "category": "metal",
+    "density_kg_m3": 2720,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 200,
+      "ultimate_MPa": 285,
+      "compressive_yield_MPa": 200,
+      "design_allow_MPa_short": 115,
+      "design_allow_MPa_long": 115
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 3004-H34 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_4032_t6",
+    "name": "Aluminum 4032-T6",
+    "category": "metal",
+    "density_kg_m3": 2680,
+    "elastic": {
+      "E_GPa": 72.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 315,
+      "ultimate_MPa": 380,
+      "compressive_yield_MPa": 315,
+      "design_allow_MPa_short": 180,
+      "design_allow_MPa_long": 180
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 4032-T6 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_4043_o",
+    "name": "Aluminum 4043-O",
+    "category": "metal",
+    "density_kg_m3": 2680,
+    "elastic": {
+      "E_GPa": 70.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 55,
+      "ultimate_MPa": 130,
+      "compressive_yield_MPa": 55,
+      "design_allow_MPa_short": 30,
+      "design_allow_MPa_long": 30
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 4043-O values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_5005_h34",
+    "name": "Aluminum 5005-H34",
+    "category": "metal",
+    "density_kg_m3": 2700,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 185,
+      "ultimate_MPa": 260,
+      "compressive_yield_MPa": 185,
+      "design_allow_MPa_short": 105,
+      "design_allow_MPa_long": 105
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 5005-H34 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_5052_o",
+    "name": "Aluminum 5052-O",
+    "category": "metal",
+    "density_kg_m3": 2680,
+    "elastic": {
+      "E_GPa": 70.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 55,
+      "ultimate_MPa": 170,
+      "compressive_yield_MPa": 55,
+      "design_allow_MPa_short": 32,
+      "design_allow_MPa_long": 32
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 5052-O values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_5052_h32",
+    "name": "Aluminum 5052-H32",
+    "category": "metal",
+    "density_kg_m3": 2680,
+    "elastic": {
+      "E_GPa": 70.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 193,
+      "ultimate_MPa": 228,
+      "compressive_yield_MPa": 193,
+      "design_allow_MPa_short": 112,
+      "design_allow_MPa_long": 112
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 5052-H32 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_5083_h111",
+    "name": "Aluminum 5083-H111",
+    "category": "metal",
+    "density_kg_m3": 2660,
+    "elastic": {
+      "E_GPa": 70.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 145,
+      "ultimate_MPa": 275,
+      "compressive_yield_MPa": 145,
+      "design_allow_MPa_short": 85,
+      "design_allow_MPa_long": 85
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 5083-H111 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_5083_h116",
+    "name": "Aluminum 5083-H116",
+    "category": "metal",
+    "density_kg_m3": 2660,
+    "elastic": {
+      "E_GPa": 70.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 215,
+      "ultimate_MPa": 305,
+      "compressive_yield_MPa": 215,
+      "design_allow_MPa_short": 125,
+      "design_allow_MPa_long": 125
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 5083-H116 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_6061_o",
+    "name": "Aluminum 6061-O",
+    "category": "metal",
+    "density_kg_m3": 2700,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 55,
+      "ultimate_MPa": 124,
+      "compressive_yield_MPa": 55,
+      "design_allow_MPa_short": 32,
+      "design_allow_MPa_long": 32
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 6061-O values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_6063_t5",
+    "name": "Aluminum 6063-T5",
+    "category": "metal",
+    "density_kg_m3": 2700,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 145,
+      "ultimate_MPa": 186,
+      "compressive_yield_MPa": 145,
+      "design_allow_MPa_short": 85,
+      "design_allow_MPa_long": 85
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 6063-T5 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_6063_t6",
+    "name": "Aluminum 6063-T6",
+    "category": "metal",
+    "density_kg_m3": 2700,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 215,
+      "ultimate_MPa": 241,
+      "compressive_yield_MPa": 215,
+      "design_allow_MPa_short": 125,
+      "design_allow_MPa_long": 125
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 6063-T6 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_6082_t6",
+    "name": "Aluminum 6082-T6",
+    "category": "metal",
+    "density_kg_m3": 2700,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 250,
+      "ultimate_MPa": 310,
+      "compressive_yield_MPa": 250,
+      "design_allow_MPa_short": 145,
+      "design_allow_MPa_long": 145
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 6082-T6 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_6066_t6",
+    "name": "Aluminum 6066-T6",
+    "category": "metal",
+    "density_kg_m3": 2700,
+    "elastic": {
+      "E_GPa": 69.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 290,
+      "ultimate_MPa": 320,
+      "compressive_yield_MPa": 290,
+      "design_allow_MPa_short": 170,
+      "design_allow_MPa_long": 170
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 6066-T6 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_7005_t6",
+    "name": "Aluminum 7005-T6",
+    "category": "metal",
+    "density_kg_m3": 2810,
+    "elastic": {
+      "E_GPa": 71.0,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 350,
+      "ultimate_MPa": 410,
+      "compressive_yield_MPa": 350,
+      "design_allow_MPa_short": 205,
+      "design_allow_MPa_long": 205
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 7005-T6 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_7050_t7451",
+    "name": "Aluminum 7050-T7451",
+    "category": "metal",
+    "density_kg_m3": 2830,
+    "elastic": {
+      "E_GPa": 71.7,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 455,
+      "ultimate_MPa": 524,
+      "compressive_yield_MPa": 455,
+      "design_allow_MPa_short": 265,
+      "design_allow_MPa_long": 265
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 7050-T7451 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_7075_t6",
+    "name": "Aluminum 7075-T6",
+    "category": "metal",
+    "density_kg_m3": 2810,
+    "elastic": {
+      "E_GPa": 71.7,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 505,
+      "ultimate_MPa": 572,
+      "compressive_yield_MPa": 505,
+      "design_allow_MPa_short": 295,
+      "design_allow_MPa_long": 295
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 7075-T6 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "al_7075_t73",
+    "name": "Aluminum 7075-T73",
+    "category": "metal",
+    "density_kg_m3": 2810,
+    "elastic": {
+      "E_GPa": 71.7,
+      "nu": 0.33
+    },
+    "strength": {
+      "yield_MPa": 435,
+      "ultimate_MPa": 505,
+      "compressive_yield_MPa": 435,
+      "design_allow_MPa_short": 255,
+      "design_allow_MPa_long": 255
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient aluminum behavior."
+    },
+    "notes": "Representative 7075-T73 values. Verify for the purchased temper.",
+    "sources": []
+  },
+  {
+    "id": "ti_grade1",
+    "name": "Titanium Grade 1 (CP Ti)",
+    "category": "metal",
+    "density_kg_m3": 4510,
+    "elastic": {
+      "E_GPa": 112,
+      "nu": 0.34
+    },
+    "strength": {
+      "yield_MPa": 220,
+      "ultimate_MPa": 345,
+      "compressive_yield_MPa": 220,
+      "design_allow_MPa_short": 125,
+      "design_allow_MPa_long": 125
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient titanium behavior."
+    },
+    "notes": "Commercially pure Grade 1 has the best formability of the common CP titanium grades, with lower strength than Grade 2.",
+    "sources": [
+      {
+        "title": "TIMETAL 35A Datasheet",
+        "url": "https://www.timet.com/documents/datasheets/cp-grades/timetal-35a.pdf",
+        "fields": [
+          "Equivalent to ASTM Grade 1",
+          "Density 4.51 g/cc",
+          "Elastic modulus 105-120 GPa",
+          "0.2% yield strength 220 MPa",
+          "Ultimate tensile strength 345 MPa",
+          "Elongation 35%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ti_grade2",
+    "name": "Titanium Grade 2 (CP Ti)",
+    "category": "metal",
+    "density_kg_m3": 4510,
+    "elastic": {
+      "E_GPa": 112,
+      "nu": 0.34
+    },
+    "strength": {
+      "yield_MPa": 275,
+      "ultimate_MPa": 345,
+      "compressive_yield_MPa": 275,
+      "design_allow_MPa_short": 150,
+      "design_allow_MPa_long": 150
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient titanium behavior."
+    },
+    "notes": "Commercially pure Grade 2 is the workhorse industrial titanium. Modulus and Poisson's ratio are representative room-temperature defaults for general machined stock.",
+    "sources": [
+      {
+        "title": "TIMETAL 50A Datasheet",
+        "url": "https://www.timet.com/documents/datasheets/cp-grades/timetal-50a.pdf",
+        "fields": [
+          "Equivalent to ASTM Grade 2",
+          "Density 4.51 g/cc",
+          "Elastic modulus 105-120 GPa",
+          "Minimum yield strength 275 MPa",
+          "Minimum tensile strength 345 MPa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ti_grade4",
+    "name": "Titanium Grade 4 (CP Ti)",
+    "category": "metal",
+    "density_kg_m3": 4510,
+    "elastic": {
+      "E_GPa": 112,
+      "nu": 0.34
+    },
+    "strength": {
+      "yield_MPa": 560,
+      "ultimate_MPa": 680,
+      "compressive_yield_MPa": 560,
+      "design_allow_MPa_short": 325,
+      "design_allow_MPa_long": 325
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient titanium behavior."
+    },
+    "notes": "Commercially pure Grade 4 is the highest-strength common CP titanium grade, with lower formability than Grades 1 and 2.",
+    "sources": [
+      {
+        "title": "TIMETAL 75A Datasheet",
+        "url": "https://www.timet.com/documents/datasheets/cp-grades/timetal-75a.pdf",
+        "fields": [
+          "Equivalent to ASTM Grade 4",
+          "Density 4.51 g/cc",
+          "Elastic modulus 105-120 GPa",
+          "0.2% yield strength 560 MPa",
+          "Ultimate tensile strength 680 MPa",
+          "Elongation 23%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ti_6al_4v_grade5",
+    "name": "Titanium Grade 5 (Ti-6Al-4V)",
+    "category": "metal",
+    "density_kg_m3": 4420,
+    "elastic": {
+      "E_GPa": 114,
+      "nu": 0.31
+    },
+    "strength": {
+      "yield_MPa": 828,
+      "ultimate_MPa": 895,
+      "compressive_yield_MPa": 828,
+      "design_allow_MPa_short": 450,
+      "design_allow_MPa_long": 450
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient titanium behavior."
+    },
+    "notes": "Grade 5 is the standard high-strength titanium for machined parts. Modulus is a representative room-temperature value within the datasheet range.",
+    "sources": [
+      {
+        "title": "TIMETAL 6-4 Datasheet",
+        "url": "https://www.timet.com/documents/datasheets/alpha-and-beta-alloys/timetal-6-4.pdf",
+        "fields": [
+          "ASTM Grade 5",
+          "Density 4.42 g/cc",
+          "Young's modulus 107-122 GPa",
+          "Minimum yield strength 828 MPa (annealed)",
+          "Minimum tensile strength 895 MPa (annealed)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ti_3al_2_5v_grade9",
+    "name": "Titanium Grade 9 (Ti-3Al-2.5V)",
+    "category": "metal",
+    "density_kg_m3": 4480,
+    "elastic": {
+      "E_GPa": 100,
+      "nu": 0.3
+    },
+    "strength": {
+      "yield_MPa": 483,
+      "ultimate_MPa": 620,
+      "compressive_yield_MPa": 483,
+      "design_allow_MPa_short": 260,
+      "design_allow_MPa_long": 260
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient titanium behavior."
+    },
+    "notes": "Grade 9 is a medium-strength titanium often sold as tube and bar stock for pressure and lightweight structures.",
+    "sources": [
+      {
+        "title": "TIMETAL 3-2.5 Datasheet",
+        "url": "https://www.timet.com/documents/datasheets/alpha-and-beta-alloys/timetal-3-2.5.pdf",
+        "fields": [
+          "ASTM Grade 9",
+          "Density 4.48 g/cc",
+          "Young's modulus 95-105 GPa",
+          "Minimum yield strength 483 MPa (annealed)",
+          "Minimum tensile strength 620 MPa (annealed)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ti_6al_4v_eli_grade23",
+    "name": "Titanium Grade 23 (Ti-6Al-4V ELI)",
+    "category": "metal",
+    "density_kg_m3": 4420,
+    "elastic": {
+      "E_GPa": 114,
+      "nu": 0.31
+    },
+    "strength": {
+      "yield_MPa": 759,
+      "ultimate_MPa": 828,
+      "compressive_yield_MPa": 759,
+      "design_allow_MPa_short": 420,
+      "design_allow_MPa_long": 420
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient titanium behavior."
+    },
+    "notes": "Grade 23 is the ELI variant of Grade 5, commonly chosen when higher cleanliness and fracture toughness are desired.",
+    "sources": [
+      {
+        "title": "TIMETAL 6-4 Datasheet",
+        "url": "https://www.timet.com/documents/datasheets/alpha-and-beta-alloys/timetal-6-4.pdf",
+        "fields": [
+          "ASTM Grade 23",
+          "Density 4.42 g/cc",
+          "Young's modulus 107-122 GPa",
+          "Minimum yield strength 759 MPa (annealed)",
+          "Minimum tensile strength 828 MPa (annealed)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sus304",
+    "name": "SUS304 (304/304L, annealed)",
+    "category": "metal",
+    "density_kg_m3": 7900,
+    "elastic": {
+      "E_GPa": 200,
+      "nu": 0.29
+    },
+    "strength": {
+      "yield_MPa": 205,
+      "ultimate_MPa": 515,
+      "compressive_yield_MPa": 205,
+      "design_allow_MPa_short": 115,
+      "design_allow_MPa_long": 115
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient stainless behavior."
+    },
+    "notes": "Representative solution-annealed 304/304L bar values. Widely available and easy to source, but chloride resistance is below SUS316.",
+    "sources": [
+      {
+        "title": "Alleima Sanmac 304/304L Bar Datasheet",
+        "url": "https://www.alleima.com/en/technical-center/material-datasheets/bar-and-hollow-bar/bar/sanmac-304304l/",
+        "fields": [
+          "JIS SUS304",
+          "Yield strength Rp0.2 >= 205 MPa",
+          "Tensile strength 515-680 MPa",
+          "Density 7.9 g/cc",
+          "Modulus of elasticity 200 GPa at 20 C"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sus316",
+    "name": "SUS316 (316/316L, annealed)",
+    "category": "metal",
+    "density_kg_m3": 8000,
+    "elastic": {
+      "E_GPa": 200,
+      "nu": 0.29
+    },
+    "strength": {
+      "yield_MPa": 205,
+      "ultimate_MPa": 515,
+      "compressive_yield_MPa": 205,
+      "design_allow_MPa_short": 115,
+      "design_allow_MPa_long": 115
+    },
+    "creep": {
+      "isCreepSensitive": false,
+      "longTermFactorDefault": 1.0,
+      "notes": "Typical ambient stainless behavior."
+    },
+    "notes": "Representative solution-annealed 316/316L bar values. The molybdenum-bearing 316 family is generally preferable to 304 in chloride-rich environments.",
+    "sources": [
+      {
+        "title": "Alleima Sanmac 316/316L Bar Datasheet",
+        "url": "https://www.alleima.com/en/technical-center/material-datasheets/bar-and-hollow-bar/bar/sanmac-316316l/",
+        "fields": [
+          "Yield strength Rp0.2 >= 205 MPa",
+          "Tensile strength 515-690 MPa",
+          "Density 8.0 g/cc",
+          "Modulus of elasticity 200 GPa at 20 C"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pla_polymaker",
+    "name": "PLA (Polymaker typical)",
+    "category": "plastic",
+    "density_kg_m3": 1240,
+    "elastic": {
+      "E_GPa": 3.5,
+      "nu": 0.36
+    },
+    "strength": {
+      "yield_MPa": 60,
+      "ultimate_MPa": 60,
+      "compressive_yield_MPa": null,
+      "design_allow_MPa_short": 25,
+      "design_allow_MPa_long": 12
+    },
+    "creep": {
+      "isCreepSensitive": true,
+      "longTermFactorDefault": 0.4,
+      "notes": "Printed PLA creeps under sustained load."
+    },
+    "notes": "Representative Polymaker PLA values; verify for your print settings.",
+    "sources": []
+  },
+  {
+    "id": "abs_polymaker",
+    "name": "ABS (Polymaker typical)",
+    "category": "plastic",
+    "density_kg_m3": 1040,
+    "elastic": {
+      "E_GPa": 2.1,
+      "nu": 0.35
+    },
+    "strength": {
+      "yield_MPa": 40,
+      "ultimate_MPa": 40,
+      "compressive_yield_MPa": null,
+      "design_allow_MPa_short": 18,
+      "design_allow_MPa_long": 8
+    },
+    "creep": {
+      "isCreepSensitive": true,
+      "longTermFactorDefault": 0.4,
+      "notes": "Printed ABS creeps under sustained load."
+    },
+    "notes": "Representative Polymaker ABS values; verify for your print settings.",
+    "sources": []
+  },
+  {
+    "id": "asa_polymaker",
+    "name": "ASA (Polymaker typical)",
+    "category": "plastic",
+    "density_kg_m3": 1070,
+    "elastic": {
+      "E_GPa": 2.0,
+      "nu": 0.35
+    },
+    "strength": {
+      "yield_MPa": 38,
+      "ultimate_MPa": 38,
+      "compressive_yield_MPa": null,
+      "design_allow_MPa_short": 17,
+      "design_allow_MPa_long": 8
+    },
+    "creep": {
+      "isCreepSensitive": true,
+      "longTermFactorDefault": 0.4,
+      "notes": "Printed ASA creeps under sustained load."
+    },
+    "notes": "Representative Polymaker ASA values; verify for your print settings.",
+    "sources": []
+  },
+  {
+    "id": "petg_polymaker",
+    "name": "PETG (Polymaker typical)",
+    "category": "plastic",
+    "density_kg_m3": 1270,
+    "elastic": {
+      "E_GPa": 2.1,
+      "nu": 0.35
+    },
+    "strength": {
+      "yield_MPa": 50,
+      "ultimate_MPa": 50,
+      "compressive_yield_MPa": null,
+      "design_allow_MPa_short": 22,
+      "design_allow_MPa_long": 10
+    },
+    "creep": {
+      "isCreepSensitive": true,
+      "longTermFactorDefault": 0.4,
+      "notes": "Printed PETG creeps under sustained load."
+    },
+    "notes": "Representative Polymaker PETG values; verify for your print settings.",
+    "sources": []
+  },
+  {
+    "id": "pvc_u_rigid",
+    "name": "PVC-U (Rigid PVC pipe / uPVC)",
+    "category": "plastic",
+    "density_kg_m3": 1420,
+    "elastic": {
+      "E_GPa": 3.0,
+      "nu": 0.38
+    },
+    "strength": {
+      "yield_MPa": 52,
+      "ultimate_MPa": 52,
+      "compressive_yield_MPa": null,
+      "design_allow_MPa_short": 22,
+      "design_allow_MPa_long": 10
+    },
+    "creep": {
+      "isCreepSensitive": true,
+      "longTermFactorDefault": 0.5,
+      "notes": "PVC-U pipe material is creep-sensitive; pressure-rated pipe design depends on long-term hydrostatic stress, temperature, and the actual pipe standard."
+    },
+    "notes": "Representative unplasticized rigid PVC used in common PVC-U/uPVC pressure pipe. Verify the purchased pipe standard, pressure rating, temperature, and manufacturer datasheet before using it for a pressure housing.",
+    "sources": [
+      {
+        "title": "Reichelt Chemietechnik PVC-U Pressure Pipe",
+        "url": "https://www.rct-online.de/en/tubes-hoses/tubings-and-pipes-made-of-rigid-plastics/pvc-u-pipes/28670/pvc-u-pressure-pipe",
+        "fields": [
+          "Material PVC-U (rigid polyvinyl chloride)",
+          "Density 1.42 g/cm3",
+          "Tensile modulus 3,000 MPa"
+        ]
+      },
+      {
+        "title": "KERN Polyvinyl chloride (PVC-U) Technical Datasheet",
+        "url": "https://www.kern.de/de/technical-datasheet/polyvinyl-pvc-u?n=2690_2",
+        "fields": [
+          "Density 1.38 g/cm3",
+          "Tensile modulus 3000 MPa",
+          "Yield stress 55 MPa"
+        ]
+      }
+    ]
+  }
+]

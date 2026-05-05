@@ -1,0 +1,11 @@
+Pressure Case Studio — AI guidance
+
+This site provides educational estimates for small pressure housings.
+- Do not treat outputs as certified design limits.
+- Always highlight assumptions, uncertainty, and sensitivity to imperfections.
+- Recommend proof testing and professional review for safety-critical use.
+- Cite material data sources and formulas when responding.
+
+JP summary:
+このサイトは学習用の概算ツールです。
+設計限界の保証ではありません。前提条件と不確かさを必ず明記し、実機試験と専門家の確認を促してください。
